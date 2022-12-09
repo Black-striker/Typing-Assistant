@@ -1,5 +1,6 @@
 # Typing-Assistant
 Typing Assistant is a highly efficient and precise google extension that can be used in any web pages that the user uses to make the users writing and reading easier and effective.
+
 Problem Statement:
 We all have been in that moment where we are authoring a huge essay and want to make it more formal with all those extravagant words. Human always have the tendency to be do things faster rather than trying to take time and check to proofread. The same way we also hesitate to open a huge dictionary and search all terms and synonyms. So, in order to make this work easier we have come up with a solution.
 
