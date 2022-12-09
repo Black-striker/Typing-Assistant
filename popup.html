@@ -1,0 +1,76 @@
+<!DOCTYPE html >
+
+<style>
+    .button {
+      display: inline-block;
+      border-radius: 2px;
+      background-color: #33cccc;
+      border: none;
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 10px;
+      width: 100px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 10px 20px;
+    }
+    .button1 {
+      display: inline-block;
+      border-radius: 2px;
+      background-color: #33cccc;
+      border: none;
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 10px;
+      width: 100px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 10px 20px;
+    }
+    .vl {
+         border-left: 1px solid white;
+        height: 110px;
+        left: 50%;
+        margin-left: -0.5px;
+        top: 10;
+        position: absolute;
+    }
+</style>
+
+<head>
+    <link rel="stylesheet" href="main.css">
+    <script src="popup.js"></script>
+</head>
+
+<body style="background-color: #4d4d4d">
+    <p style="text-align: center;"><span><strong><span style="color: #ffffff; font-size: 30px;"><img src="Images/logo.jpg" alt="" />Typing</span> <span style="color: #33cccc; font-size: 30px;">Assistant</span></strong></span></p>
+    <p><span><strong><span style="color: #33cccc;"></span></strong></span></p>
+    <p style="text-align: center;"><span style="color: #ffffff; font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 16.5px;">This Google extension helps you to enhance your writing and get the best out of your papers. This typing assistant assists you in writing, translating, and searching for the meaning of words. Want to write formal or informal scripts, you are in the right place. If you are in need of definitions or meanings for any specific word just select the word and right-click to find the meaning.</span></p>
+    <hr />
+    <table style="height: 115px; width: 100%; border-collapse: collapse; border-style: hidden;">
+    <tbody>
+    <tr style="height: 95px;">
+    <td style="width: 50%; text-align: center; height: 95px;"><span style="color: #ffffff; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 16px;">In need of a translation of your webpage or any part of the web page, go ahead and click on the button below.</span></td>
+    <td style="width: 50%; text-align: center; height: 95px;"><span style="color: #33cccc; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 16px;">To find more detailed definitions of words or grammatical behaviours, go ahead and click on the button below</span></td>
+    </tr>
+    <tr style="height: 20px;">
+    <td style="width: 50%; text-align: center; height: 20px;"><button id="button1" class="button" style="vertical-align:middle">Translate</button></td>
+    <td style="width: 50%; text-align: center; height: 20px;"><button id="button2" class="button1" style="vertical-align:middle">Dictionary</button></td>
+    </tr>
+    </tbody>
+    </table>
+    <h2 id="error"></h2>
+      <h1 id="word"></h1>
+      <p id="phonetic"></p>
+      <div id="definition"></div>
+      <p id="example"></p>
+      <div id="navigatecontainer" class="navigate-container hidenavigator">
+        <span id="prev" class="navigator previous">&laquo;</span>
+        <span id="next" class="navigator next">&raquo;</span>
+      </div>
+      <script src="popup.js" type="text/javascript"></script>
+</body>
